@@ -1,0 +1,103 @@
+/*    tag selector    */
+body {
+  margin: 0;
+  text-align: center;
+}
+hr {
+  border: none;
+  border-top: dotted 7px;
+  width: 13%;
+  margin: 50px auto 70px;
+}
+h1 {
+  margin-top: 0 ;
+  font-family: 'Sacramento', cursive, serif;
+  font-size: 80px;
+  color: #40514E;
+  line-height: 1;
+}
+h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #40514E;
+}
+h3 {
+  font-size: 1.8em;
+  color: #40514E;
+}
+p {
+  font-size: 1.2em;
+  line-height: 40px;
+}
+a {
+  color: #11999E;
+  margin: 0 30px;
+}
+/*     Class Selector    */
+.top-container {
+  background-color: #E4F9F5;
+    padding-top: 150px;
+}
+.middle-container {
+  margin: 0;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #EFFFFD;
+}
+.bottom-container {
+  margin:0;
+  background-color: #c5ded7;
+  padding-top: 40px;
+}
+.top-cloud {
+  position: absolute;
+  top:14%;
+  right: 20%;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+  padding-bottom: 10px;
+}
+.mountain {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+.web-dev {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.autocad {
+  width: 25%;
+  float: right;
+  margin-left: 20px;
+}
+.java {
+  width: 25%;
+  float: left;
+  margin: 10px 20px;
+}
+.btn {
+  margin-top: 30px;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #11999e;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  background-image: linear-gradient(top, #11cdd4, #11999e);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btn:hover{
+  background-color:#2bc4ad;
+}
